@@ -1,25 +1,32 @@
+const { default: expect } = require('expect');
 const Employee = require('../lib/Employee')
+const name = "Drew";
+const empId = 33;
+const email = "come@me.com";
 
 test('initiate', () => {
     const Emp = new Employee();
-    expect(typeof(Emp)).toBe('');
+    expect(Emp.getRole()).toBe('Employee');
 });
 
 test('will be the name', () => {
-    const name = "Drew";
+    
     const Emp = new Employee(name);
-    expect(typeof(Emp)).toBe(name);
+    expect(Emp.name).toBe(name);
+    expect(Emp.getName()).toBe(name);
 });
 
 test('will be the ID', () => {
-    const empId = 33;
-    const Emp = new Employee(empId);
-    expect(typeof(Emp)).toBe(empId);
+   
+    const Emp = new Employee(name, empId);
+    expect(Emp.id).toBe(empId);
+    expect(Emp.getId()).toBe(empId);
 });
 
 test('will be the email', () => {
-    const email = "come@me.com";
-    const Emp = new Employee(email);
-    expect(typeof(Emp)).toBe(email);
+    
+    const Emp = new Employee(name, empId, email);
+    expect(Emp.email).toBe(email);
+    expect(Emp.getEmail()).toBe(email);
 })
 
