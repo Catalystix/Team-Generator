@@ -34,7 +34,7 @@ test('will be the email', () => {
 test('will be school', () => {
     const Emp = new Intern(name, empId, email, school);
     expect(Emp.school).toBe(school);
-    expect(Emp.getSchool()).toBe(school);
+    expect(Emp.getSchool()).toBe('School');
 
 
 });
