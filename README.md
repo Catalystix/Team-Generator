@@ -53,3 +53,5 @@
    https://github.com/Catalystix/Team-Generator
 
    https://drive.google.com/file/d/1oUGP700HAFj30vuLTROTu-pRql8oJTNs/view
+   ![TESTS PASSED](https://user-images.githubusercontent.com/110114608/220215372-a90c5498-3c8f-4ced-8832-5ed94f731a69.jpg)
+   ![inputs working](https://user-images.githubusercontent.com/110114608/220215376-48d43050-5a5a-4d12-a9ea-bf36e80310e5.jpg)
