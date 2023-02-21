@@ -49,3 +49,7 @@
   
   ## Licensing
    ![License: MIT](https://https://www.mit.edu/~amini/LICENSE.md) 
+
+   https://github.com/Catalystix/Team-Generator
+
+   https://drive.google.com/file/d/1oUGP700HAFj30vuLTROTu-pRql8oJTNs/view
